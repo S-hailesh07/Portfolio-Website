@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Line</title>
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <!-- Left: Icon Image -->
+            <div class="navbar-left">
+                <img src="assets/Rectangle 181.png" alt="Logo" class="navbar-icon">
+            </div>
+
+            <!-- Right: Buttons -->
+            <div class="navbar-right">
+                <a href="index.html"><button class="nav-btn  home-link">Home</button></a>
+                <a href="skills.html"><button class="nav-btn active">Skills</button></a>
+                <a href="index.html"><button class="nav-btn">Education</button></a>
+                <a href="index.html"><button class="nav-btn project-link" id="projects-btn">Projects</button></a>
+                <a href="index.html"><button class="nav-btn recommendations-link">Recommendations</button></a>
+                <a href="index.html"><button class="nav-btn contact-link">Contact</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="after-nav">
+
+    </div>
+
+
+<div class="try">
+    <div class="skill-header">
+        <div class="skill-header-heading">Skills & Languages</div>
+        <div class="skill-header-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            Velit officia consequat duis enim velit mollit. lorem ipsum
+        </div>
+    </div>
+
+    <div class="container" id="container"></div>
+
+    <div class="button-div">
+        <div class="skill-header-button" id="open-modal-btn">ADD SKILL</div>
+    </div>
+
+    <!-- Modal for adding skills -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-content-heading">
+                Add Skill
+            </div>
+            <label for="domain">Domain</label>
+            <div>
+                <input style="opacity: .6;" placeholder="Front End Developer" id="domain" required>
+            </div>
+
+            <div class="modal-skills-upheading">
+                Skills
+            </div>
+
+            <div class="modal-skills-heading">
+                <span>Skill</span>
+                <span>Proficiency (%)</span>
+            </div>
+            <div class="skills-section">
+                <input type="text" class="skill-name" required>
+
+                <input type="number" class="skill-percentage" min="1" max="100" required>
+            </div>
+            <div class="skills-section">
+                <input type="text" class="skill-name" required>
+
+                <input type="number" class="skill-percentage" min="1" max="100" required>
+            </div>
+            <div class="skills-section">
+                <input type="text" class="skill-name" required>
+
+                <input type="number" class="skill-percentage" min="1" max="100" required>
+            </div>
+            <div class="skills-section">
+                <input type="text" class="skill-name" required>
+
+                <input type="number" class="skill-percentage" min="1" max="100" required>
+            </div>
+            <div class="skills-section">
+                <input type="text" class="skill-name" required>
+
+                <input type="number" class="skill-percentage" min="1" max="100" required>
+            </div>
+
+            <div class="modal-buttons">
+                <button id="submit-skills-btn">Add Skill</button>
+
+                <button id="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Footer content -->
+        <div class="footer-logos-container">
+            <div class="footer-logos">
+                <img src="./assets/Frame.png" alt="" srcset="">
+                <img src="./assets/Frame (1).png" alt="" srcset="">
+                <img src="./assets/Frame (2).png" alt="" srcset="">
+                <img src="./assets/Frame (3).png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="footer-multi-items">
+            <div class="footer-multi-logo">
+                <img src="./assets/Logo.png" alt="" srcset="">
+            </div>
+
+            <div class="footer-multi-links">
+                <div class="footer-multi-box-container">
+                    <div class="footer-multi-box">
+                        <img src="./assets/Rectangle 97.png" alt="" srcset="" class="footer-image">
+                        <span class="footer-span">4.5/5 Rating on Lorem </span>
+                    </div>
+                    <div class="footer-multi-box">
+                        <img src="./assets/Rectangle 99.png" alt="" srcset="" class="footer-image">
+                        <span class="footer-span">9/10 Rating on Ipsum</span>
+                    </div>
+                    <div class="footer-multi-box">
+                        <img src="./assets/Rectangle 100.png" alt="" srcset="" class="footer-image">
+                        <span class="footer-span">4.5/5 Rating on dorel</span>
+                    </div>
+                </div>
+
+                <div class="footer-multi-list-container">
+                    <div class="footer-multi-list">
+                        <span class="footer-span-heading">Quick Links</span>
+                        <div class="footer-after-heading">
+                            <span class="footer-multi-links-span">Home</span>
+                            <span class="footer-multi-links-span">Skills</span>
+                            <span class="footer-multi-links-span">Education</span>
+                            <span class="footer-multi-links-span">Projects</span>
+                            <span class="footer-multi-links-span">Recommendations</span>
+                        </div>
+                    </div>
+
+                    <div class="footer-multi-list">
+                        <span class="footer-span-heading">Portfolio</span>
+                        <div class="footer-after-heading">
+                            <span class="footer-multi-links-span">Frontend Development</span>
+                            <span class="footer-multi-links-span">Backend Development</span>
+                            <span class="footer-multi-links-span">Website design</span>
+                            <span class="footer-multi-links-span">Machine Learning</span>
+                            <span class="footer-multi-links-span">Problem Solving & DSA</span>
+                        </div>
+                    </div>
+
+                    <div class="footer-multi-list">
+                        <span class="footer-span-heading">Connect</span>
+                        <div class="footer-after-heading">
+                            <img src="./assets/LinkedIn.png" alt="" srcset="">
+                            <img src="./assets/Instagram.png" alt="" srcset="">
+                            <img src="./assets/Facebook.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="footer-copyright">
+            <div>
+                <img src="./assets/Copyright Circle.svg" alt="" srcset="">
+            </div>
+            <span class="copy-span">2024 Copyright, All Right Reserved</span>
+        </div>
+
+    </footer>
+</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all nav buttons
+            const navButtons = document.querySelectorAll('.nav-btn');
+
+            // Add click event listener to each button
+            navButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Remove 'active' class from all buttons
+                    navButtons.forEach(btn => btn.classList.remove('active'));
+
+                    // Add 'active' class to the clicked button
+                    this.classList.add('active');
+                });
+            });
+        });
+        const container = document.getElementById("container");
+        let arr = [
+            { title: "Front End Development", skills: [['HTML', 90], ['CSS', 85], ['JS', 70],['PHP', 75],['WordPess', 85]] },
+            { title: "Language", skills: [['Hindi', 90], ['English', 85]] },
+            { title: "Back End Development", skills: [['Node.js', 90], ['SSR', 85]] },
+            { title: "Front End Development", skills: [['HTML', 90], ['CSS', 85], ['JS', 70],['PHP', 75],['WordPess', 85]] },
+            { title: "Language", skills: [['Hindi', 90], ['English', 85]] },
+            { title: "Back End Development", skills: [['Node.js', 90], ['SSR', 85]] }
+        ];
+
+        let allTech = '';
+        for (let techStack of arr) {
+            let temp = `<div class="card">
+                            <div class="container-inside">
+                                <h2 class="container-heading">${techStack.title}</h2>
+                                <div class="skills-container">`;
+            let sk = '';
+            for (let t of techStack.skills) {
+                sk += `<div class="container-skill"><span>${t[0]}</span> <span>${t[1]}%</span></div>
+                       <div class="progress-bar-container">
+                           <div class="progress-bar" style="width:${t[1]}%"></div>
+                       </div>`;
+            }
+            temp += sk;
+            temp += `</div></div></div>`;
+            allTech += temp;
+        }
+        container.innerHTML = allTech;
+
+        // Modal logic
+        const modal = document.getElementById("modal");
+        const openModalBtn = document.getElementById("open-modal-btn");
+        const cancelBtn = document.getElementById("cancel-btn");
+        const submitSkillsBtn = document.getElementById("submit-skills-btn");
+        const skillsSection = document.getElementById("skills-section");
+
+        let skillsCount = 1;
+
+        openModalBtn.addEventListener("click", () => {
+            modal.style.display = "flex";
+        });
+
+        submitSkillsBtn.addEventListener("click", () => {
+            console.log("inside submit")
+            const domain = document.getElementById("domain").value;
+            const skillNames = document.querySelectorAll(".skill-name");
+            const skillPercentages = document.querySelectorAll(".skill-percentage");
+
+            if (domain && skillNames.length > 0 && skillPercentages.length > 0 && domain != null && skillNames!=null && skillPercentages!=null) {
+                let newSkills = [];
+                
+                let flag = false;
+                for (let i = 0; i < skillNames.length; i++) {
+                    if(skillPercentages[i].value > 100){
+                        alert("Percentage should be less than 100");
+                        return;
+                    }
+                    if (skillNames[i].value != "" && skillPercentages[i].value != "" && skillNames[i].value != null && skillPercentages[i].value != null) { 
+                        flag = true;
+                        newSkills.push([skillNames[i].value, skillPercentages[i].value]); }
+                    
+                }
+                if(flag == false){
+                    alert("Please add atleast one skill !")
+                    return;
+                }
+
+                arr.push({ title: domain, skills: newSkills });
+
+                let temp = `<div class="card">
+                                <div class="container-inside">
+                                    <h2 class="container-heading">${domain}</h2>
+                                    <div class="skills-container">`;
+                let sk = '';
+                for (let t of newSkills) {
+                    
+                        sk += `<div class="container-skill"><span>
+                            ${t[0]}
+                            </span>
+                            <span>
+                                ${t[1]}%
+                            </span></div>
+                           <div class="progress-bar-container">
+                               <div class="progress-bar" style="width:${t[1]}%"></div>
+                           </div>`;
+                    
+                }
+                temp += sk;
+                temp += `</div></div></div>`;
+                container.innerHTML += temp;
+
+                // Reset modal
+                document.getElementById("domain").value = "";
+                for (let i = 0; i < skillNames.length; i++) {
+                    skillNames[i].value = "";
+                    skillPercentages[i].value = "";
+                }
+                
+
+                skillsCount = 1;
+
+                modal.style.display = "none";
+
+            }
+        });
+
+        // Close modal when clicking outside of it
+        window.addEventListener("click", (e) => {
+            if (e.target == modal) {
+                modal.style.display = "none";
+            }
+        });
+
+        cancelBtn.addEventListener("click", (e) => {
+            modal.style.display = "none";
+
+        })
+
+
+
+
+    </script>
+
+    <!-- <script src="scripts/app.js"></script> -->
+</body>
+
+</html>
